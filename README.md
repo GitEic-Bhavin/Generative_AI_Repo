@@ -96,3 +96,67 @@ Prompt Engineering
 
 - Whenever you are asking questions, Giving Instructions and Input to an AI System to get desired response that is a **Prompt**.
 
+Embeddings
+---
+
+Machines DO NOT understand TEXT
+They only understand numbers
+
+Embeddings are `numerical representations of text`.
+
+- They understand the object, relations between words, who is first and after.
+
+- This capability will give to LLM by Embeddings.
+
+- Embedding will create paragraph, bullet points etc.
+
+- Embeddings used numbers only, They will get Input from users, like
+
+  - `I eat ice cream`
+
+- Now, each word will chuncking like devided into small parts like `I`, `eat`, `ice`, `cream`.
+
+- Now, it will go to nural networks called transformers , processed it, Embeddings will convert into numbers, passing through numbers of tranformers layers and after that user will get final output.
+
+
+
+Fine-Tunings
+---
+
+- To trains the AI Model to work on specific tasks to get better results.
+
+- It will not creating intelligence from scratch
+
+- AI Model has been already trained on foundation level then we will train model on specific tasks.
+
+## Fine Tune Types
+
+### 1. Self-Supervised
+
+- The model learns from unlabeled data by predicting parts of the data itself.
+
+```bash
+"The sky is ____"
+```
+
+- Model learns to predict blue.
+- No human labels required.
+
+### 2. Supervised
+
+- You give Input with `lables`.
+- `lable` is required
+
+```txt
+User: Write refund email
+Assistant: Dear customer...
+```
+
+### 3. Reinforcement
+
+- Instead of fixed answers, the model learns from **`Feedback Signals`**.
+
+
+
+
+
