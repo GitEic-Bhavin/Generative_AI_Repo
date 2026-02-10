@@ -58,7 +58,41 @@ But, How machines can be intelligence as humans ?
 What is LLM ?
 ---
 
-- Large Language Models (LLMs) are AI Models to `Designed for understanding and generating human-like text.
+- Large Language Models (LLMs) are AI Models to `Designed for understanding and generating human-like text. But, **TEXT** Only, Not for Videos, Images like Generative AI.
 
 - LLM means they can generate text, process text, they can understand text, they know about words, grammers, sentences, contexts all of this will create accuracy.
+
+**Key Points on LLM:**
+
+- `Pre-Training` - Trained on huge corpusof data to get accuracy. Ex. ChatGPT 3 was trained with 500 GB of data.
+
+- `Size and Scale` 
+  - LLM Use Massive Neural Networks that are called `Transformars` which uses lot of parameters.
+
+  - Highest number or parameters the better your models in training, understanding and generate capability
+
+  - Ex. ChatGPT 3 was trained on 175 B Parameters.
+
+- `Fine-Tuning` - More **Targeted** training for specific tasks.
+
+**Use case of LLM**
+
+  - Content generations - Marketing, advertising etc
+  - Chatbots and Virtual assistant - Customer supports by chatbot of company
+
+  - Language translations
+
+  - Text summarizations
+
+
+Prompt Engineering
+---
+
+- You are asking to 
+
+**Alexa** - How's the weather ?
+**Siri** - Will it rain today ?
+**Google** - Red velvet cack recipe
+
+- Whenever you are asking questions, Giving Instructions and Input to an AI System to get desired response that is a **Prompt**.
 
