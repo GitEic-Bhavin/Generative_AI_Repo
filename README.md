@@ -157,6 +157,66 @@ Assistant: Dear customer...
 - Instead of fixed answers, the model learns from **`Feedback Signals`**.
 
 
+RAG (Retrieval-Augmented Generations)
+---
+
+- It's technique where an LLM **Doesn't rely only on what it learned during pre-trainings** - Instead it, **Retrieves external informations first**, then uses LLM Data.
+
+👉 RAG = Serach + LLM Data
+
+## Why RAG Exists
+
+- While you Input any of Prompt which is not related to availabled data in LLM, The AI Model will hallucinate
 
 
+Problem Statement
+---
+
+**Knowledge cut-off date** - AI Models are trained only up to a certain date and don't know about recent events or updates
+
+**Retrieval**: Find the right facts from your own knowledge sources.
+
+**Augmented**: Add those facts to your questions - Add those info to LLM.
+
+**Generations**: Let the AI wirte a response based on that fresh data.
+
+How RAG Helps ?
+---
+
+**Authoritative Sources**: Answers are from your knowledge sources
+
+**Privacy**: Keep your sensitive data off the public internet.
+
+**Reduced Hallucinations**: Answers are based on facts, not guesses
+
+**Sources Included**: The AI tells exactly where it found the answer.
+
+![alt text](ragarch.png)
+
+Agentic AI
+---
+
+- Agentic AI refers to AI Systems that can **Automatically plan, decide and execute actions** to achieve specific goals without constant **Human Interventions**.
+
+- For instance, you are trying to plan for a trip.
+- You will have to plan to travel through flight, trains etc and find which is cost-effective and best for you.
+- After reach to destinations, you will have to find nearest hotel to stay there.
+- Plan to order of lunch and dinner
+- Plan to return to your home by train or flight
+
+- This all things you can do or Travel Agent will do itself and give you a plans and schedules.
+
+- This all things AI can also do itself, is called **Agentic AI**.
+
+- **Agentic AI** Can take a decisions, can create a plan, Execute plan like ( Book a ticket after your approval ).
+
+![alt text](agenticai.png)
+
+
+GenAI Use Cases
+---
+
+## Software Development
+
+![alt text](genaiex.png)
 
